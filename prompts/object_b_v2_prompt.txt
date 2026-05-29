@@ -1,0 +1,4 @@
+a cute chibi anime doll head, only a floating round head with deep purple bob hair, purple star eyes, small tongue, white rabbit hairpin on one side, toy material, no body, no base, white background
+
+# Must stay under CLIP's 77-token limit (threestudio tokenizes without truncation).
+# v2: dropped "keychain" (induced a base lump) and forbids body/base; head-only.

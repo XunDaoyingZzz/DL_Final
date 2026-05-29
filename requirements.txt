@@ -1,0 +1,8 @@
+# Helper-script dependencies (the analysis/compose/render utilities in scripts/).
+# The heavy 3D stacks live in their own conda envs — see ENVIRONMENT.md.
+numpy>=1.26
+opencv-python>=4.10
+pillow>=10.0
+tensorboard>=2.14        # read 3DGS TensorBoard scalars for W&B upload
+wandb>=0.16              # training-curve logging
+# torch is provided by the GPU conda envs (torch 2.1.2+cu118); not pinned here.

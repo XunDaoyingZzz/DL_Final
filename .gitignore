@@ -1,0 +1,27 @@
+# Large training outputs / data — distributed via netdisk, not Git (see README §5)
+outputs/
+data/
+old/
+old2/
+*.pth
+*.ckpt
+*.pt
+*.npz
+
+# Big point clouds / meshes (trained assets go to netdisk)
+*.ply
+*.obj
+*.glb
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Experiment trackers / scratch
+wandb/
+swanlab/
+events.out.tfevents.*
+.DS_Store
+
+# NOTE: report_materials/ (final video, contact sheets, W&B curves) IS tracked on purpose.
