@@ -1,7 +1,13 @@
 # HW3 题目一 报告素材（给写 TeX 的同学）
 
 > 多源 3D 资产生成与真实场景融合（3DGS + AIGC）。本文件汇总方法、超参、指标、耗时、对比分析、
-> 图表清单，可直接转写成 NeurIPS/CVPR 风格报告。所有数值出自 `RESULTS_LOG.md`（含逐条 first/last/min）。
+> 图表清单，可直接转写成 NeurIPS/CVPR 风格报告。
+
+## 外部链接（报告首/末页需附）
+
+- **代码仓库 (GitHub)**：https://github.com/XunDaoyingZzz/DL_Final
+- **模型权重 (Google Drive)**：https://drive.google.com/drive/folders/1LzN8HotaPt-oEGw0u8jNojHdot2qO88T
+- **训练曲线 (W&B)**：`wandb.ai/1037309108-fudan-university/hw3-3d-assets`（导出图见 `report_materials/wandb_curves/`）
 
 ---
 
