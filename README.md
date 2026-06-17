@@ -37,7 +37,7 @@ scripts/
   upload_tb_scalars_to_wandb.py  # 把 3DGS 的 TensorBoard 曲线上传到 W&B
   wsl/                           # 各阶段的运行脚本（在 WSL 内调用 COLMAP/3DGS/threestudio）
 prompts/object_b_v2_prompt.txt   # 物体 B 的文本提示词（去 keychain、head-only、anti-Janus）
-report_materials/                # 报告素材：最终视频、contact sheets、W&B 曲线、成因分析
+report_materials/                # 报告素材：最终视频、contact sheets、W&B 曲线
 ```
 
 > 大文件（训练权重 `*.pth/*.ckpt`、高斯点云 `*.ply`、数据集、`outputs/`）**不入库**（另行打包上传网盘）。
