@@ -34,5 +34,4 @@
   `images_4 + sparse`（约 246 MB，零 VPN）。
 
 ## W&B
-通过本机 `~/.netrc` 登录；项目 `1037309108-fudan-university/hw3-3d-assets`。
-**仓库内不含任何 API key。**
+通过本机 `~/.netrc` 登录；
